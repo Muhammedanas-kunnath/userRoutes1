@@ -28,6 +28,7 @@ applicationLevelmid();
 
 // /router level
 
+
 app.get('/', routerLevelMid, (req,res)=>{
     
     res.sendFile(__dirname + '/index.html');
